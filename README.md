@@ -2,7 +2,7 @@
 
 IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 
-## 🔨 Tool preparation
+## 🔨 Tool Preparation
 
 #### \> Download
 
@@ -73,7 +73,7 @@ sudo apt install aria2
 
 ### Downloading
 
-#### 1. youtube-dl
+#### 1. Youtube-dl
 
 Should be the mostly used tool to download youtube-dl videos. Simple as it is.
 
@@ -103,7 +103,7 @@ Also the config takes 2 times of writing files which might take longer.
 
 > Downloaded video and audio → Merged .mp4 file → Write thumbnail with AtomicParsley
 
-#### 2. streamlink
+#### 2. Streamlink
 
 For **no-archive** streams youtube-dl doesn't work. We should use streamlink instead.
 
@@ -129,7 +129,7 @@ The details were written in the plugin, **read before use**. But it might be a l
 
 And it does not work with `YouTube`, so you still need `streamlink`.
 
-#### 4. Auto monitor-download script
+#### 4. Auto Monitor-Download Script
 
 It's just a script, but the options are pretty complicated and was in Chinese so I will provide the lines I'm using.
 
@@ -169,7 +169,7 @@ AtomicParsley "output.mp4" --artwork "cover.jpg" --overWrite
 
 ## 🤔 Tips
 
-### Run tasks in the background
+### Running Tasks in the Background
 
 Processes will terminated if the network interrupt and logged out. So I suggest use `nohup` to keep it running, add an `&` to let the command run whatever happens.
 
@@ -185,7 +185,7 @@ tail -l nohup.out
 
 Use `Ctrl + C` to terminate the command.
 
-### Upper case
+### Upper Case
 
 Be careful, commands in Ubuntu are case sensitive, if you cannot run the command please check.
 
@@ -209,7 +209,7 @@ The final output should be like this
 20210120【テトリス99】順位でガチャ配信の課金額が決まる⁉.mp4
 ```
 
-### YouTube video encoding
+### YouTube Video Encoding
 
 FYI YouTube needs time to encode the archive after the stream ended. You can download with `youtube-dl` right after with 1 thread enabled.
 
