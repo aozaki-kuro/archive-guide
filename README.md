@@ -209,9 +209,9 @@ The final output should be like this
 
 FYI YouTube needs time to encode the archive after the stream ended. You can download with `youtube-dl` right after with 1 thread enabled.
 
-You can also wait for 30 minutes to serveral hours (depending on the length of the stream), when you see the comments and superchats are back, that means the archive has been encoded. At this point you can use `youtube-dl` along with `aria2` to download much faster in 5~10 threads enabled.
+You can also wait for _30 minutes to serveral hours_ (depending on the length of the stream), when you see the comments and superchats are back, that means the archive has been encoded. At this point you can use `youtube-dl` along with `aria2` to download much faster in 5~10 threads enabled.
 
-Also, if the stream is longer than 2 hours and you didn't started recording it from the beginning, `youtube-dl` can just download the last 2 hours' part as soon as the stream ended. You have to wait until the whole archive finished encoding, then you can grab a intact archive.
+Also, if the stream is **longer than 2 hours** and you didn't started recording it from the beginning, `youtube-dl` can just download the **last 2 hours' part** as soon as the stream ended. You have to wait until the whole archive finished encoding, then you can grab a intact archive.
 
 ## 🤧 Issues
 
