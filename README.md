@@ -136,6 +136,8 @@ nohup record/record_new.sh youtube "youtube_account_id" -f best -l 10 -o "auto_r
 
 The `-l` is the looping option, means recheck the streaming status in every 10 seconds. I suggest having a dry run before running this.
 
+---
+
 ### Uploading
 
 You can use `rclone` instead if you want to upload everything to a Google Drive, but it's somehow complicated so read the official guide before processing.
@@ -145,6 +147,8 @@ In this project I use `OneDriveUploader` since I stored everything in a 5TB OneD
 ```bash
 OneDriveUploader -s raw -r / # upload "raw" folder to the root
 ```
+
+---
 
 ### Tag the thumbnail
 
@@ -160,9 +164,9 @@ ffmpeg -i "input.ts" -vcodec copy "output.mp4"
 AtomicParsley "output.mp4" --artwork "cover.jpg" --overWrite
 ```
 
-### Tips
+## Tips
 
-#### Run tasks in the background
+### Run tasks in the background
 
 Processes will terminated if the network interrupt and logged out. So I suggest use `nohup` to keep it running, add an `&` to let the command run whatever happens.
 
@@ -176,11 +180,11 @@ If you want to check the output, you can use `tail` command.
 tail -l nohup.out
 ```
 
-#### Upper case
+### Upper case
 
 Be careful, commands in Ubuntu are case sensitive, if you cannot run the command please check.
 
-#### Renaming
+### Renaming
 
 I'm using `Renamer.exe` or modify the filename manually. I will write about the naming style:
 
