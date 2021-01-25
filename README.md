@@ -18,8 +18,7 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 
 #### \> Upload
 
-1. OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)]
-or 2. Google Drive Sync
+1. OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)] or Google Drive Sync [[Github](https://github.com/dtsvetkov1/Google-Drive-sync)]
 2. rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
 ## 🎬 Virtual Server Enviroment Preparation
