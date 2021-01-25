@@ -27,6 +27,8 @@ The whole process in an [Amazon Lightsail](https://lightsail.aws.amazon.com/) VP
 
 Local environment is Windows 10 with WSL 2 (Ubuntu 20.04 LTS)
 
+Read the guide about how to install WSL 2: [Link](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+
 Preparing the environment is pretty much the same on the VPS and the WSL. I will be writing the preparation on the VPS.
 
 1. Generate a pair of SSH keys (if you do not know what it is, a password is okay).
