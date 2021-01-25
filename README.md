@@ -58,6 +58,7 @@ sudo apt install aria2
     Copy it to the `/bin/` folder. Once you are done you should test running the command to see if it's taking effect.
     ```bash
     sudo cp OneDriveUploader /usr/local/bin/OneDriveUploader
+    sudo chmod a+rx /usr/local/bin/OneDriveUploader
     ```
 
     Since we are using OneDrive Business then click [this link](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=78d4dc35-7e46-42c6-9023-2d39314433a5&response_type=code&redirect_uri=http://localhost/onedrive-login&response_mode=query&scope=offline_access%20User.Read%20Files.ReadWrite.All) to get an url, then read below to start the config
