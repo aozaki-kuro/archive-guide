@@ -22,7 +22,7 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 or 2. Google Drive Sync
 2. rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
-## 🎬 Virtual Server Enviroment preparing
+## 🎬 Virtual Server Enviroment Preparation
 
 The whole process in an [Amazon Lightsail](https://lightsail.aws.amazon.com/) VPS, using Ubuntu 20.04 LTS.
 
