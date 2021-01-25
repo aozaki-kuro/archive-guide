@@ -9,7 +9,7 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 1. youtube-dl - general purpose video downloader [[Github](https://github.com/ytdl-org/youtube-dl)]
 2. streamlink - stream recording tool [[Github](https://github.com/streamlink/streamlink)]
 3. auto monitor-download script [[Github](https://github.com/lovezzzxxx/liverecord)]
-4. aria2 - accelerated downloading
+4. aria2 - download accelerating
 
 #### \> Processing
 
