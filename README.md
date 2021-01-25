@@ -6,10 +6,10 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 
 #### \> Download
 
-1. youtube-dl [[Github](https://github.com/ytdl-org/youtube-dl)]
-2. streamlink [[Github](https://github.com/streamlink/streamlink)]
+1. youtube-dl - general purpose video downloader [[Github](https://github.com/ytdl-org/youtube-dl)]
+2. streamlink - stream recording tool [[Github](https://github.com/streamlink/streamlink)]
 3. auto monitor-download script [[Github](https://github.com/lovezzzxxx/liverecord)]
-4. aria2
+4. aria2 - accelerated downloading
 
 #### \> Processing
 
@@ -19,15 +19,16 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 #### \> Upload
 
 1. OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)]
+or 2. Google Drive Sync
 2. rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
-## 🎬 Enviroment preparation
+## 🎬 Virtual Server Enviroment preparing
 
 The whole process in an [Amazon Lightsail](https://lightsail.aws.amazon.com/) VPS, using Ubuntu 20.04 LTS.
 
 Local environment is Windows 10 with WSL 2 (Ubuntu 20.04 LTS)
 
-Preparing the environment is pretty the same on the VPS and the WSL. I will be writing the preparation on the VPS.
+Preparing the environment is pretty much the same on the VPS and the WSL. I will be writing the preparation on the VPS.
 
 1. Generate a pair of SSH keys (if you do not know what it is, a password is okay).
 2. Create a VPS and upload your SSH public key.
