@@ -181,6 +181,8 @@ If you want to check the output, you can use `tail` command.
 tail -l nohup.out
 ```
 
+Use `Ctrl + C` to terminate the command.
+
 ### Upper case
 
 Be careful, commands in Ubuntu are case sensitive, if you cannot run the command please check.
