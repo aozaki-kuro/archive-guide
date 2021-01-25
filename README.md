@@ -70,7 +70,7 @@ sudo apt install aria2
 
 ### Downloading
 
-#### \> youtube-dl
+#### 1. youtube-dl
 
 Should be the mostly used tool to download youtube-dl videos. Simple as it is.
 
@@ -100,7 +100,7 @@ Also the config takes 2 times of writing files which might take longer.
 
 > Downloaded video and audio → Merged .mp4 file → Write thumbnail with AtomicParsley
 
-#### \> streamlink
+#### 2. streamlink
 
 For **no-archive** streams youtube-dl doesn't work. We should use streamlink instead.
 
@@ -114,7 +114,7 @@ Streamlink works for niconico with options provided.
 streamlink "url" best -o "filename.ts" --niconico-email "EMAIL" --niconico-password "PASSWORD"
 ```
 
-#### \> Stream Recorder
+#### 3. Stream Recorder
 
 It's a plugin available in [Chrome Store](https://chrome.google.com/webstore/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm).
 
@@ -126,7 +126,7 @@ The details were written in the plugin, **read before use**. But it might be a l
 
 And it does not work with `YouTube`, so you still need `streamlink`.
 
-#### \> Auto monitor-download script
+#### 4. Auto monitor-download script
 
 It's just a script, but the options are pretty complicated and was in Chinese so I will provide the lines I'm using.
 
@@ -203,3 +203,7 @@ The final output should be like this
 ```
 20210120【テトリス99】順位でガチャ配信の課金額が決まる⁉.mp4
 ```
+
+## Issues
+
+If you have any questions, please write it in the [Issues](https://github.com/aozaki-kuro/archive-guide/issues), I'll answer if I can.
