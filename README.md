@@ -204,6 +204,6 @@ The final output should be like this
 20210120【テトリス99】順位でガチャ配信の課金額が決まる⁉.mp4
 ```
 
-## Issues
+## 🤧 Issues
 
 If you have any questions, please write it in the [Issues](https://github.com/aozaki-kuro/archive-guide/issues), I'll answer if I can.
