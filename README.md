@@ -21,7 +21,7 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 1. OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)]
 2. rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
-## 🎬 Enviroment preparing
+## 🎬 Enviroment preparation
 
 The whole process in an [Amazon Lightsail](https://lightsail.aws.amazon.com/) VPS, using Ubuntu 20.04 LTS.
 
