@@ -1,8 +1,16 @@
+<div align="center">
+  <image src="assets/comet.png" alt="comet" width="150px" />
+  <h3>Brief Archive Guide for Hoshiyomis</h3>
+  <em>Treasure every moment of our dear comet.</em>
+</div>
+
+---
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![last-commit](https://img.shields.io/github/last-commit/aozaki-kuro/archive-guide)](https://github.com/aozaki-kuro/archive-guide)
+
 ## 📢 THE MOST IMPORTANT THING
 
 IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![last-commit](https://img.shields.io/github/last-commit/aozaki-kuro/archive-guide)](https://github.com/aozaki-kuro/archive-guide)
 
 ## 🔨 Tool Preparation
 
@@ -239,3 +247,7 @@ FYI YouTube needs time to encode the archive after the stream ended. You can dow
 You can also wait for _30 minutes to serveral hours_ (depending on the length of the stream), when you see the comments and superchats are back, that means the archive has been encoded. At this point you can use `youtube-dl` along with `aria2` to download much faster in 5~10 threads enabled.
 
 Also, if the stream is **longer than 2 hours** and you didn't started recording it from the beginning, `youtube-dl` can just download the **last 2 hours' part** as soon as the stream ended. You have to wait until the whole archive finished encoding, then you can grab a intact archive.
+
+### ⚠ Issues
+
+If you are having more questions, please [open an issue](https://github.com/aozaki-kuro/archive-guide/issues) using the \[Question\] template.
