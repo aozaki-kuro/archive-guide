@@ -1,6 +1,6 @@
 ## 📢 THE MOST IMPORTANT THING
 
-IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
+IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![last-commit](https://img.shields.io/github/last-commit/aozaki-kuro/archive-guide)](https://github.com/aozaki-kuro/archive-guide)
 
@@ -8,21 +8,21 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 
 #### \> Download
 
-1. youtube-dl - general purpose video downloader [[Github](https://github.com/ytdl-org/youtube-dl)]
-2. streamlink - stream recording tool [[Github](https://github.com/streamlink/streamlink)]
-3. auto monitor-download script [[Github](https://github.com/lovezzzxxx/liverecord)]
-4. aria2 - download accelerating
-5. Stream Recorder - stream recording tool [[Chrome Store](https://chrome.google.com/webstore/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm)]
+- youtube-dl - general purpose video downloader [[Github](https://github.com/ytdl-org/youtube-dl)]
+- streamlink - stream recording tool [[Github](https://github.com/streamlink/streamlink)]
+- auto monitor-download script [[Github](https://github.com/lovezzzxxx/liverecord)]
+- aria2 - download accelerating
+- Stream Recorder - stream recording tool [[Chrome Store](https://chrome.google.com/webstore/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm)]
 
 #### \> Processing
 
-1. ffmpeg [[Github](https://github.com/FFmpeg/FFmpeg)]
-2. AtomicParsley
+- ffmpeg [[Github](https://github.com/FFmpeg/FFmpeg)]
+- AtomicParsley
 
 #### \> Upload
 
-1. OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)] or Google Drive Sync [[Github](https://github.com/dtsvetkov1/Google-Drive-sync)]
-2. rclone (optional) [[Github](https://github.com/rclone/rclone)]
+- OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)] or Google Drive Sync [[Github](https://github.com/dtsvetkov1/Google-Drive-sync)]
+- rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
 ## 🎬 Virtual Server Enviroment Preparation
 
@@ -58,9 +58,7 @@ sudo apt install aria2
 
 ## ✨ Usage
 
-### 📁 Downloading
-
-#### 🚩 Youtube-dl
+### 🚩 Youtube-dl
 
 Should be the mostly used tool to download youtube-dl videos. Simple as it is.
 
@@ -92,7 +90,7 @@ Also, the config takes 3 times of writing files which might take longer. *Wait p
 
 > Downloaded video and audio → Merged .mp4 file → Write metadata → Write thumbnail with AtomicParsley
 
-#### 🚩 Streamlink
+### 🚩 Streamlink
 
 For **No Archive** streams youtube-dl doesn't work. We should use streamlink instead.
 
@@ -108,7 +106,7 @@ streamlink "url" best -o "filename.ts" --niconico-email "EMAIL" --niconico-passw
 
 For AbemaTV, streamlink also works. But somehow it's a little bit slow. You can also use `yuu` instead [[Github](https://github.com/noaione/yuu)].
 
-#### 🚩 Stream Recorder
+### 🚩 Stream Recorder
 
 This is a plugin which can directly grab the stream. It did a great job in the **SUISEI "POWER" LIVE**. I successfully saved the live-record edition using this plugin.
 
@@ -118,7 +116,7 @@ The details were written in the plugin, **read before use**, *the plugin does no
 
 And it does not work with `YouTube`, so you still need `streamlink`.
 
-#### 🚩 Auto Monitor-Download Script
+### 🚩 Auto Monitor-Download Script
 
 It's just a script, but the options are pretty complicated and was in Chinese so I will provide the lines I'm using.
 
@@ -156,15 +154,16 @@ OneDriveUploader -s raw -r / # upload "raw" folder to the root
 
 ---
 
-### Tag the thumbnail
+### 📌 Tag a Thumbnail
 
-The only way to tag a thumbnail is by using `AtomicParsley`.
+The only way to tag a thumbnail to `.mp4` file is by using `AtomicParsley`.
 
-The process is like this:
+The process is like this
 
 > Downloaded .ts file → Use ffmpeg to convert into .mp4 file → Write thumbnail with AtomicParsley
 
 This is how it works
+
 ```bash
 ffmpeg -i "input.ts" -vcodec copy "output.mp4"
 AtomicParsley "output.mp4" --artwork "cover.jpg" --overWrite
