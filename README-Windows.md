@@ -57,6 +57,12 @@ Another alternative way to install these are by using `pip3`. Just install `pyth
 
 ## ✨ Usage
 
+### 🚩 Youtube-dl
+
+**※ If you don't want to do the configure yourself, you can use the scripts provided [here](scripts)**
+
+Usage is simple.
+
 ```powershell
 youtube-dl "url"
 ```
@@ -90,6 +96,8 @@ Also, the config takes 3 times of writing files which might take longer. *Wait p
 ### 🚩 Streamlink
 
 For **No Archive** streams youtube-dl doesn't work. We should use streamlink instead.
+
+**※ If you don't want to do the configure yourself, you can use the scripts provided [here](scripts)**
 
 ```powershell
 streamlink "url" best -o "D:\filename.ts" # Name the filename .ts, not .mp4
