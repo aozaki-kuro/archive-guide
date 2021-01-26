@@ -19,13 +19,13 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 - youtube-dl - general purpose video downloader [[Github](https://github.com/ytdl-org/youtube-dl)]
 - streamlink - stream recording tool [[Github](https://github.com/streamlink/streamlink)]
 - auto monitor-download script [[Github](https://github.com/lovezzzxxx/liverecord)]
-- aria2 - download accelerating
+- aria2 - download accelerating [[Github](https://github.com/aria2/aria2)]
 - Stream Recorder - stream recording tool [[Chrome Store](https://chrome.google.com/webstore/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm)]
 
 #### 📁 Processing
 
 - ffmpeg [[Github](https://github.com/FFmpeg/FFmpeg)]
-- AtomicParsley
+- AtomicParsley [[Github](https://github.com/wez/atomicparsley)]
 
 #### 📁 Upload
 
