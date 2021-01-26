@@ -34,6 +34,10 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 ## 🎬 Virtual Server Enviroment Preparation
 
+[![Windows10](https://img.shields.io/badge/Windows%2010-20H2-blue)](https://www.microsoft.com/en-us/software-download/windows10)
+
+If you are using Windows 10 only, please check the [Windows ver Guide]((README-Windows.md)).
+
 [![ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20LTS-orange)](https://releases.ubuntu.com/20.04/) 
 
 I'm running the jobs on [Amazon Lightsail](https://lightsail.aws.amazon.com/). Local environment is Windows 10 with WSL 2.
@@ -67,8 +71,6 @@ sudo apt install aria2
 ## ✨ Usage
 
 ### 🚩 Youtube-dl
-
-**Windows 10 users can use the Easy batch files found in the scripts folder. Simply drag the .bat files in the same folder as youtube-dl.exe and double click the .bat file to run.**
 
 Should be the mostly used tool to download youtube-dl videos. Simple as it is.
 
@@ -105,7 +107,7 @@ Also, the config takes 3 times of writing files which might take longer. *Wait p
 For **No Archive** streams youtube-dl doesn't work. We should use streamlink instead.
 
 ```sh
-streamlink "url" best -o "filename.ts" # Name the filename as `.ts`, not `.mp4`
+streamlink "url" best -o "filename.ts" # Name the filename as .ts, not .mp4
 ```
 
 Streamlink works for niconico with options provided.
