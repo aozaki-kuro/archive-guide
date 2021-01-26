@@ -100,11 +100,13 @@ But I prefer having it configured and accelarte the download with `aria2`. Here 
 --cookies '/home/ubuntu/cookies.txt'
 ```
 
-Putting a `cookies.txt` option helps downloading the member-only contents.
+Save it as `youtube-dl.conf` in e.g. `/home/ubuntu/youtube-dl.conf`. Then use `sudo cp youtube-dl /etc/youtube-dl.conf` to make it a system-wide config.
 
-Also the config takes 2 times of writing files which might take longer.
+Putting a `--cookies cookies.txt` option helps downloading the member-only contents.
 
-> Downloaded video and audio → Merged .mp4 file → Write thumbnail with AtomicParsley
+Also, the config takes 3 times of writing files which might take longer. *Wait patiently.*
+
+> Downloaded video and audio → Merged .mp4 file → Write metadata → Write thumbnail with AtomicParsley
 
 #### 2. Streamlink
 
