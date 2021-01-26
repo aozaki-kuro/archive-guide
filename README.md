@@ -26,9 +26,9 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 
 ## 🎬 Virtual Server Enviroment Preparation
 
-The whole process in an [Amazon Lightsail](https://lightsail.aws.amazon.com/) VPS, using Ubuntu 20.04 LTS.
+[![ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20LTS-orange)](https://releases.ubuntu.com/20.04/) 
 
-Local environment is Windows 10 with WSL 2 (Ubuntu 20.04 LTS)
+I'm running the jobs on [Amazon Lightsail](https://lightsail.aws.amazon.com/). Local environment is Windows 10 with WSL 2.
 
 Read the guide about how to install WSL 2: [Link](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
