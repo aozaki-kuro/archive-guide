@@ -68,6 +68,8 @@ sudo apt install aria2
 
 ### 🚩 Youtube-dl
 
+Windows 10 users can use the Easy batch files found in the scripts folder. Simply drag the .bat files in the same folder as youtube-dl.exe and double click the .bat file to run.
+
 Should be the mostly used tool to download youtube-dl videos. Simple as it is.
 
 ```sh
