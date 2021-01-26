@@ -250,4 +250,4 @@ Also, if the stream is **longer than 2 hours** and you didn't started recording 
 
 ## 🔰 Issues
 
-If you are having more questions, please [open an issue](https://github.com/aozaki-kuro/archive-guide/issues) using the \[Question\] template.
+If you are having more questions, please [open an issue](https://github.com/aozaki-kuro/archive-guide/issues/new?assignees=&labels=question&template=questions.md&title=%5BQuestion%5D+) using the \[Question\] template.
