@@ -132,7 +132,7 @@ OneDriveUploader -a "url" #replace the url part
 e.g. Upload the `raw` folder to OneDrive root
 
 ```powershell
-neDriveUploader -s D:\suisei -r / # upload "raw" folder to the root
+OneDriveUploader -s D:\suisei -r / # upload "raw" folder to the root
 ```
 
 You can use `rclone` instead if you want to, but it comsumes more memory and somehow complicated to config.
