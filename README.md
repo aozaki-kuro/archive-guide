@@ -8,9 +8,9 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![last-commit](https://img.shields.io/github/last-commit/aozaki-kuro/archive-guide)](https://github.com/aozaki-kuro/archive-guide)
 
-## 📢 THE MOST IMPORTANT THING
+## 📢 IMPORTANT
 
-IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
+IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 ## 🔨 Tool Preparation
 
@@ -180,6 +180,12 @@ AtomicParsley "output.mp4" --artwork "cover.jpg" --overWrite
 ```
 
 ## 🤔 Tips & FAQs
+
+### ⚠ OBS
+
+DON'T USE OBS TO RECORD THE SCREEN.
+
+No purpose doing this, if you have read the guide. Also OBS doesn't work for _DRM protected_ contents.
 
 ### ⚠ Running Tasks in the Background
 
