@@ -56,27 +56,11 @@ sudo apt install atomicparsley
 sudo apt install aria2
 ```
 
-6. About the OneDriveUploader, it only has a Chinese guide so I will write a brief English one about this.
-
-    Download the file from [here](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader/amd64/linux), then upload it by using Winscp to a folder like `/home/ubuntu/OneDriveUploader`.
-
-    Copy it to the `/bin/` folder. Once you are done you should test running the command to see if it's taking effect.
-    ```bash
-    sudo cp OneDriveUploader /usr/local/bin/OneDriveUploader
-    sudo chmod a+rx /usr/local/bin/OneDriveUploader
-    ```
-
-    Since we are using OneDrive Business then click [this link](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=78d4dc35-7e46-42c6-9023-2d39314433a5&response_type=code&redirect_uri=http://localhost/onedrive-login&response_mode=query&scope=offline_access%20User.Read%20Files.ReadWrite.All) to get an url, then read below to start the config
-
-    ```bash
-    OneDriveUploader -a "url" #replace the url part
-    ```
-
 ## ✨ Usage
 
-### Downloading
+### 📁 Downloading
 
-#### 1. Youtube-dl
+#### 🚩 Youtube-dl
 
 Should be the mostly used tool to download youtube-dl videos. Simple as it is.
 
@@ -108,9 +92,9 @@ Also, the config takes 3 times of writing files which might take longer. *Wait p
 
 > Downloaded video and audio → Merged .mp4 file → Write metadata → Write thumbnail with AtomicParsley
 
-#### 2. Streamlink
+#### 🚩 Streamlink
 
-For **no-archive** streams youtube-dl doesn't work. We should use streamlink instead.
+For **No Archive** streams youtube-dl doesn't work. We should use streamlink instead.
 
 ```bash
 streamlink "url" best -o "filename.ts" # Name the filename as `.ts`, not `.mp4`
@@ -124,7 +108,7 @@ streamlink "url" best -o "filename.ts" --niconico-email "EMAIL" --niconico-passw
 
 For AbemaTV, streamlink also works. But somehow it's a little bit slow. You can also use `yuu` instead [[Github](https://github.com/noaione/yuu)].
 
-#### 3. Stream Recorder
+#### 🚩 Stream Recorder
 
 This is a plugin which can directly grab the stream. It did a great job in the **SUISEI "POWER" LIVE**. I successfully saved the live-record edition using this plugin.
 
@@ -134,7 +118,7 @@ The details were written in the plugin, **read before use**, *the plugin does no
 
 And it does not work with `YouTube`, so you still need `streamlink`.
 
-#### 4. Auto Monitor-Download Script
+#### 🚩 Auto Monitor-Download Script
 
 It's just a script, but the options are pretty complicated and was in Chinese so I will provide the lines I'm using.
 
@@ -146,11 +130,25 @@ The `-l` is the looping option, means recheck the streaming status in every 10 s
 
 ---
 
-### Uploading
+### ☁ Uploading
 
 You can use `rclone` instead if you want to upload everything to a Google Drive, but it's somehow complicated so read the official guide before processing.
 
 In this project I use `OneDriveUploader` since I stored everything in a 5TB OneDrive Business Account.
+
+```bash
+wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
+sudo chmod a+rx /usr/local/bin/OneDriveUploader
+```
+Once you are done you should test running the command to see if it's taking effect.
+
+Since we are using OneDrive Business then click [this link](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=78d4dc35-7e46-42c6-9023-2d39314433a5&response_type=code&redirect_uri=http://localhost/onedrive-login&response_mode=query&scope=offline_access%20User.Read%20Files.ReadWrite.All) to get an url, then read below to start the config
+
+```bash
+OneDriveUploader -a "url" #replace the url part
+```
+
+e.g. Upload the `raw` folder to OneDrive root
 
 ```bash
 OneDriveUploader -s raw -r / # upload "raw" folder to the root
@@ -172,9 +170,9 @@ ffmpeg -i "input.ts" -vcodec copy "output.mp4"
 AtomicParsley "output.mp4" --artwork "cover.jpg" --overWrite
 ```
 
-## 🤔 Tips
+## 🤔 Tips & FAQs
 
-### Running Tasks in the Background
+### ⚠ Running Tasks in the Background
 
 Processes will terminated if the network interrupt and logged out. So I suggest use `nohup` to keep it running, add an `&` to let the command run whatever happens.
 
@@ -190,11 +188,11 @@ tail -l nohup.out
 
 Use `Ctrl + C` to terminate the command.
 
-### Upper Case
+### ⚠ Upper Case
 
 Be careful, commands in Ubuntu are case sensitive, if you cannot run the command please check.
 
-### Renaming
+### ⚠ Renaming
 
 I'm using `Renamer.exe` or modify the filename manually. I will write about the naming style:
 
@@ -214,7 +212,7 @@ The final output should be like this
 20210120【テトリス99】順位でガチャ配信の課金額が決まる⁉.mp4
 ```
 
-### YouTube Video Encoding
+### ⚠ YouTube Video Encoding
 
 FYI YouTube needs time to encode the archive after the stream ended. You can download with `youtube-dl` right after with 1 thread enabled.
 
