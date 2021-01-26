@@ -248,6 +248,6 @@ You can also wait for _30 minutes to serveral hours_ (depending on the length of
 
 Also, if the stream is **longer than 2 hours** and you didn't started recording it from the beginning, `youtube-dl` can just download the **last 2 hours' part** as soon as the stream ended. You have to wait until the whole archive finished encoding, then you can grab a intact archive.
 
-### ⚠ Issues
+## 🔰 Issues
 
 If you are having more questions, please [open an issue](https://github.com/aozaki-kuro/archive-guide/issues) using the \[Question\] template.
