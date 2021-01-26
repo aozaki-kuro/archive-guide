@@ -10,6 +10,7 @@ IF YOU ARE HAVING ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST
 2. streamlink - stream recording tool [[Github](https://github.com/streamlink/streamlink)]
 3. auto monitor-download script [[Github](https://github.com/lovezzzxxx/liverecord)]
 4. aria2 - download accelerating
+5. Stream Recorder - stream recording tool [[Chrome Store](https://chrome.google.com/webstore/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm)]
 
 #### \> Processing
 
@@ -117,13 +118,13 @@ Streamlink works for niconico with options provided.
 streamlink "url" best -o "filename.ts" --niconico-email "EMAIL" --niconico-password "PASSWORD"
 ```
 
-#### 3. Stream Recorder
+For AbemaTV, streamlink also works. But somehow it's a little bit slow. You can also use `yuu` instead [[Github](https://github.com/noaione/yuu)].
 
-It's a plugin available in [Chrome Store](https://chrome.google.com/webstore/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm).
+#### 3. Stream Recorder
 
 This is a plugin which can directly grab the stream. It did a great job in the **SUISEI "POWER" LIVE**. I successfully saved the live-record edition using this plugin.
 
-The details were written in the plugin, **read before use**. But it might be a little bit unstable. You might have to refresh and grab for several times until you see the higher resolution. 
+The details were written in the plugin, **read before use**, *the plugin does not support encrypted HLS stream*. You might have to refresh and grab for several times until you see the higher resolution. 
 
 > Be careful, don't refresh the streaming page or the recording session will interupt.
 
