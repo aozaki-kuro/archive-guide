@@ -1,2 +1,2 @@
 ## Usage
-Once you are done with the Environment configure according to [Windows ver Guide](README-Windows.md), download the bash and double click it to use.
+Just paste the .bat files into the same folder as youtube-dl.exe [like this](assets/dir1.PNG) and double click the .bat file to run.
