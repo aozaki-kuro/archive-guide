@@ -20,6 +20,7 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 - streamlink - stream recording tool [[Github](https://github.com/streamlink/streamlink)]
 - auto monitor-download script [[Github](https://github.com/lovezzzxxx/liverecord)]
 - aria2 - download accelerating [[Github](https://github.com/aria2/aria2)]
+- Stream Recorder - stream recording tool [[Chrome Store](https://chrome.google.com/webstore/detail/stream-recorder-download/iogidnfllpdhagebkblkgbfijkbkjdmm)]
 
 #### 📁 Processing
 
@@ -39,15 +40,24 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 Just paste the .bat files into the same folder as youtube-dl.exe [like this](assets/dir1.PNG) and double click the .bat file to run.
 
+To download members only streams, paste/replace the cookies.txt file in the folder with the correct cookies.txt file.
+
+Note: youtube-dl works for most streams in general, but for **No-archive** streams you need to use streamlink to record live.
+
 ## 🎪 Windows Environment Preparation
 
 [![Windows10](https://img.shields.io/badge/Windows%2010-20H2-blue)](https://www.microsoft.com/en-us/software-download/windows10)
 
 First of all, you should setup a `PATH` folder to tell the Windows where to find the programs.
 
-`TBD HERE`
+Run Command Prompt (cmd) as administrator. Then paste the following into the console
 
-Once you are done, put the programs in the `PATH` folder and test the commands like `youtube-dl` or `streamlink` etc. see if it works.
+```powershell
+setx /M PATH "%PATH%;<REPLACE THIS WITH THE PATH TO YOUR DIRECTORY>"
+```
+The `REPLACE THIS WITH THE PATH TO YOUR DIRECTORY` part should be the folder want to save the tools. In [this case](assets/dir1.PNG) it sould be "J:\Youtube Downloading"
+
+Once you are done, put the tools in the folder. Start cmd (doesn't not have to be as administrator) and run the commands `youtube-dl --help` or `streamlink -h` etc. If you see a giant block of text showing you the arguments, that means it's working.
 
 Tips: 
 
@@ -66,8 +76,9 @@ Usage is simple.
 ```powershell
 youtube-dl "url"
 ```
+If ffmpeg is in the same folder as youtube-dl, it will automatically download the best video and audio quality and merge it as a .mkv video file.
 
-But I prefer having it configured and accelarte the download with `aria2`. Here is my configuration:
+Alternatively, I prefer having it configured to download an .mp4 video, and accelerate the download with `aria2`. Here is my configuration:
 
 ```powershell
 --external-downloader aria2c --external-downloader-args "-x 16 -k 1M"
@@ -83,7 +94,7 @@ But I prefer having it configured and accelarte the download with `aria2`. Here 
 --cookies 'D:\Download\youtube\cookies.txt'
 ```
 
-**Remember to replace the download directory according to our own system!**
+**The -o argument is for the folder you want to download the streams to! Remember to replace the download directory according to our own system!**
 
 Then save it as `youtube-dl.conf` in `%APPDATA%\youtube-dl\config.txt` or `C:\Users\<user name>\youtube-dl.conf`, `youtube-dl.exe` will read the config from here.
 
@@ -113,19 +124,19 @@ For AbemaTV, streamlink also works. But somehow it's a little bit slow. You can 
 
 ### 🚩 Stream Recorder
 
-This is a plugin which can directly grab the stream. It did a great job in the **SUISEI "POWER" LIVE**. I successfully saved the live-record edition using this plugin.
+For other streaming playforms, this is a plugin which can directly grab the stream. It did a great job in the **SUISEI "POWER" LIVE**. I successfully saved the live-record edition using this plugin.
 
 The details were written in the plugin, **read before use**, *the plugin does not support encrypted HLS stream*. You might have to refresh and grab for several times until you see the higher resolution. 
 
-> Be careful, don't refresh the streaming page or the recording session will interupt.
+> Be careful, don't refresh the streaming page or the recording session will be interuptted.
 
-And it does not work with `YouTube`, so you still need `streamlink`.
+Reminder that it does not work with `YouTube`, so you still need `streamlink` for no-archive Youtube streams.
 
 ---
 
 ### ☁ Uploading
 
-In this project I use `OneDriveUploader` since I stored everything in a 5TB OneDrive Business Account.
+In this project I use `OneDriveUploader` since I stored everything in a 5TB OneDrive Business Account, but you can use whichever cloud storage service you like.
 
 Download the `.exe` file from [here](https://github.com/MoeClub/OneList/blob/master/OneDriveUploader/amd64/win/OneDriveUploader.exe) and put it in your `PATH` folder.
 
