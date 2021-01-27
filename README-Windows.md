@@ -38,7 +38,7 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 **※ If you don't want to do the configuration yourself, you can use the scripts provided [here](scripts)**
 
-Just paste the .bat files into the same folder as youtube-dl.exe [like this](assets/dir1.PNG) and double click the .bat file to run.
+Just paste the .bat files into the same folder as youtube-dl.exe [like this](assets/dir1.PNG) and double click the .bat file to run. These scripts only provide barebones use of the tools, so if you want to use additional arguments, you will need to keep reading.
 
 To download members only streams, paste/replace the cookies.txt file in the folder with the correct cookies.txt file.
 
