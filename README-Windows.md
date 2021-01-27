@@ -26,20 +26,22 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 - ffmpeg [[Download](https://ffmpeg.org/download.html)]
 - AtomicParsley [[Github](https://github.com/wez/atomicparsley)]
 
+**※The folders should be placed in the same folder as youtube-dl.exe [like this](assets/dir1.PNG)**
+
 #### 📁 Upload
 
 - OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)] or Google Drive Sync [[Github](https://github.com/dtsvetkov1/Google-Drive-sync)]
 - rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
-## 🎪 Windows Enviroment Preparation
+## 🔨 Easy Usage with Easy Scripts!!!
+
+**※ If you don't want to do the configuration yourself, you can use the scripts provided [here](scripts)**
+
+Just paste the .bat files into the same folder as youtube-dl.exe [like this](assets/dir1.PNG) and double click the .bat file to run.
+
+## 🎪 Windows Environment Preparation
 
 [![Windows10](https://img.shields.io/badge/Windows%2010-20H2-blue)](https://www.microsoft.com/en-us/software-download/windows10)
-
-> To be clear, this guide is written in the Env of Windows 10 20H2.
-> 
-> I **will not** answer questions about Windows 7.
-> 
-> Also, this guide does not include Windows Insider debugging.
 
 First of all, you should setup a `PATH` folder to tell the Windows where to find the programs.
 
@@ -58,8 +60,6 @@ Another alternative way to install these are by using `pip3`. Just install `pyth
 ## ✨ Usage
 
 ### 🚩 Youtube-dl
-
-**※ If you don't want to do the configure yourself, you can use the scripts provided [here](scripts)**
 
 Usage is simple.
 
