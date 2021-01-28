@@ -34,6 +34,9 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 - OneDriveUploader [[Github](https://github.com/MoeClub/OneList/tree/master/OneDriveUploader)] or Google Drive Sync [[Github](https://github.com/dtsvetkov1/Google-Drive-sync)]
 - rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
+#### 📁 Cookies
+- cookies.txt [[Chrome](https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid)] [[Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/)]
+
 ## 🔨 Easy Usage with Easy Scripts!!!
 
 **※ If you don't want to do the configuration yourself, you can use the scripts provided [here](scripts)**
@@ -103,6 +106,8 @@ Putting a `--cookies` option helps downloading the member-only contents.
 Also, the config takes 3 times of writing files which might take longer. *Wait patiently.*
 
 > Downloaded video and audio → Merged .mp4 file → Write metadata → Write thumbnail with AtomicParsley
+
+To download member streams, you will need the **cookies.txt** extension. Go to the member stream you want to download and grab the "Current Site" cookies. This will prompt you to save a `cookies.txt` file on your computer. The `--cookies` argument is used to point the location of the `cookies.txt` file. The same file is also used for the Easy Scripts above.
 
 ### 🚩 Streamlink
 
