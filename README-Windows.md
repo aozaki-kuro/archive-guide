@@ -107,6 +107,8 @@ Also, the config takes 3 times of writing files which might take longer. *Wait p
 
 > Downloaded video and audio → Merged .mp4 file → Write metadata → Write thumbnail with AtomicParsley
 
+#### Member Streams
+
 To download member streams, you will need the **cookies.txt** extension. Go to the member stream you want to download and grab the "Current Site" cookies. This will prompt you to save a `cookies.txt` file on your computer. The `--cookies` argument is used to point the location of the `cookies.txt` file. The same file is also used for the Easy Scripts above.
 
 ### 🚩 Streamlink
