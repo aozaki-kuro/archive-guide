@@ -62,7 +62,7 @@ sudo apt upgrade -y
 sudo apt install python3
 sudo apt install python3-pip
 sudo -H pip3 install --upgrade youtube-dl #sudo is required
-sudo pip3 install --upgrade streamlink
+sudo -H pip3 install --upgrade streamlink
 sudo apt install ffmpeg
 sudo apt install atomicparsley
 sudo apt install aria2
@@ -94,9 +94,13 @@ But I prefer having it configured and accelarte the download with `aria2`. Here 
 --cookies '/home/ubuntu/cookies.txt'
 ```
 
+※ Replace `/home/ubuntu/` and `/home/ubuntu/raw` with your own working directories.
+
 Save it as `youtube-dl.conf` in e.g. `/home/ubuntu/youtube-dl.conf`. Then use `sudo cp youtube-dl /etc/youtube-dl.conf` to make it a system-wide config.
 
 Putting a `--cookies cookies.txt` option helps downloading the member-only contents.
+
+> To get a `cookies.txt` using the plugin: [[Chrome](https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid)] [[Firefox](https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/)]
 
 Also, the config takes 3 times of writing files which might take longer. *Wait patiently.*
 
