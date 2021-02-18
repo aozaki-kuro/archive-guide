@@ -24,7 +24,7 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 #### 📁 Processing
 
-- ffmpeg [[Download](https://ffmpeg.org/download.html)]
+- ffmpeg [[Download](https://ffmpeg.org/download.html)] [[Guide Here](http://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/)]
 - AtomicParsley [[Github](https://github.com/wez/atomicparsley)]
 
 **※The folders should be placed in the same folder as youtube-dl.exe [like this](assets/dir1.PNG)**
