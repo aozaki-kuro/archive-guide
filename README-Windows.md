@@ -43,6 +43,8 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 Just paste the .bat files into the same folder as youtube-dl.exe [like this](assets/dir1.PNG) and double click the .bat file to run. These scripts only provide barebones use of the tools, so if you want to use additional arguments, you will need to keep reading.
 
+The video link is normally a Youtube link, but you can put other links in there too (like SPWN stream links).
+
 To download members only streams, paste/replace the cookies.txt file in the folder with the correct cookies.txt file.
 
 Note: youtube-dl works for most streams in general, but for **No-archive** streams you need to use streamlink to record live.
