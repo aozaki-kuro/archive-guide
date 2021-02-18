@@ -24,7 +24,7 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 #### 📁 Processing
 
-- ffmpeg [[Github](https://github.com/FFmpeg/FFmpeg)]
+- ffmpeg [[Github](https://github.com/FFmpeg/FFmpeg)] [[Guide Here](http://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/)]
 - AtomicParsley [[Github](https://github.com/wez/atomicparsley)]
 
 #### 📁 Upload
