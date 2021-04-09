@@ -83,7 +83,7 @@ streamlink "url" best -o "filename.ts" # Name the filename as .ts, not .mp4
 Streamlink works for niconico with options provided.
 
 ```bash
-streamlink "url" best -o "filename.ts" --niconico-email "EMAIL" --niconico-password "PASSWORD"
+streamlink "url" best --niconico-email "EMAIL" --niconico-password "PASSWORD" -o "filename.ts"
 ```
 
 For AbemaTV, streamlink also works. But somehow it's a little bit slow. You can also use `yuu` instead [[Github](https://github.com/noaione/yuu)].
