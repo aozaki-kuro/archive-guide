@@ -60,7 +60,7 @@ Use this template to download the video. Replace the stuff in () with the approp
 
 **youtube-dl (the .m3u8 link from earlier) --cookies (the cookies.txt file from earlier) -o "(path to where you want to save the video)"**
 
-You can drag youtube-dl.exe and the `cookies.txt` file to your cmd to get the exact path easy
+You can drag `youtube-dl.exe` and the `cookies.txt` file to your cmd to get the exact path easy
 
 ![cmd drag](https://github.com/aozaki-kuro/archive-guide/blob/main/assets/clickdrag.PNG)
 
