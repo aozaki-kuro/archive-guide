@@ -1,4 +1,4 @@
-## ☁ OneDrive and other cloud storage provider
+## ☁ OneDrive and Other Cloud Storage Provider
 
 Since not every has a NAS filled with 32TB hardrive running at home, local storage space can run low if you put everything in it. I suggest OneDrive / OneDrive for Business if you have a Microsoft 365 subscription.
 
