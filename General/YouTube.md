@@ -9,7 +9,7 @@
 
 **※ If you don't want to do the configuration yourself, you can use the scripts provided [here](scripts)**
 
-Just paste the .bat files into the same folder as youtube-dl.exe [like this](assets/dir1.PNG) and double click the .bat file to run. These scripts only provide barebones use of the tools, so if you want to use additional arguments, you will need to keep reading.
+Just paste the .bat files into the same folder as youtube-dl.exe [like this](/assets/dir1.PNG) and double click the .bat file to run. These scripts only provide barebones use of the tools, so if you want to use additional arguments, you will need to keep reading.
 
 The video link is normally a YouTube link, but you can put other links in there too (like SPWN stream links).
 
@@ -21,7 +21,7 @@ Note: `youtube-dl` works for most streams in general, but for **No-archive** str
 
 [![Windows10](https://img.shields.io/badge/Windows%2010-20H2-blue)](https://www.microsoft.com/en-us/software-download/windows10)
 
-**※ If you are working on a headless server like I do, please read the [advanced guide](Advanced/server.md)**
+**※ If you are working on a headless server like I do, please read the [advanced guide](/Advanced/server.md)**
 
 First of all, you should setup a `PATH` folder to tell the Windows where to find the programs.
 
@@ -30,7 +30,7 @@ Run Command Prompt (cmd) as administrator. Then paste the following into the con
 ```powershell
 setx /M PATH "%PATH%;<REPLACE THIS WITH THE PATH TO YOUR DIRECTORY>"
 ```
-The `REPLACE THIS WITH THE PATH TO YOUR DIRECTORY` part should be the folder want to save the tools. In [this case](assets/dir1.PNG) it sould be "J:\Youtube Downloading"
+The `REPLACE THIS WITH THE PATH TO YOUR DIRECTORY` part should be the folder want to save the tools. In [this case](/assets/dir1.PNG) it sould be "J:\Youtube Downloading"
 
 Once you are done, put the tools in the folder. Start cmd (doesn't not have to be as administrator) and run the commands `youtube-dl --help` or `streamlink -h` etc. If you see a giant block of text showing you the arguments, that means it's working.
 
@@ -87,7 +87,7 @@ To download member streams, you will need the **cookies.txt** extension. Go to t
 
 For **No Archive** streams youtube-dl doesn't work. We should use streamlink instead.
 
-**※ If you don't want to do the configure yourself, you can use the scripts provided [here](scripts)**
+**※ If you don't want to do the configure yourself, you can use the scripts provided [here](/scripts)**
 
 ```powershell
 streamlink "url" best -o "D:\filename.ts" # Name the filename .ts, not .mp4

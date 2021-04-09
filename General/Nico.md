@@ -8,7 +8,7 @@
 
 [![Windows10](https://img.shields.io/badge/Windows%2010-20H2-blue)](https://www.microsoft.com/en-us/software-download/windows10)
 
-**※ If you are working on a headless server like I do, please read the [advanced guide](Advanced/server.md)**
+**※ If you are working on a headless server like I do, please read the [advanced guide](/Advanced/server.md)**
 
 First of all, you should setup a `PATH` folder to tell the Windows where to find the programs.
 
@@ -17,7 +17,7 @@ Run Command Prompt (cmd) as administrator. Then paste the following into the con
 ```powershell
 setx /M PATH "%PATH%;<REPLACE THIS WITH THE PATH TO YOUR DIRECTORY>"
 ```
-The `REPLACE THIS WITH THE PATH TO YOUR DIRECTORY` part should be the folder want to save the tools. In [this case](assets/dir1.PNG) it sould be "J:\Youtube Downloading"
+The `REPLACE THIS WITH THE PATH TO YOUR DIRECTORY` part should be the folder want to save the tools. In [this case](/assets/dir1.PNG) it sould be "J:\Youtube Downloading"
 
 nce you are done, put the tools in the folder. Start cmd (doesn't not have to be as administrator) and run the commands `youtube-dl --help` or `streamlink -h` etc. If you see a giant block of text showing you the arguments, that means it's working.
 
@@ -33,7 +33,7 @@ Another alternative way to install these are by using `pip3`. Just install `pyth
 
 ### 🚩 Streamlink
 
-**※ If you don't want to do the configure yourself, you can use the scripts provided [here](scripts)**
+**※ If you don't want to do the configure yourself, you can use the scripts provided [here](/scripts)**
 
 Streamlink is possibly the best and the most stable way to record Niconico streams.
 

@@ -14,13 +14,22 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 ## 📚 Guide
 
-\>\> For General Users
+### 🔰 For General Users
 
-[YouTube](/General/YouTube.md) | [Niconico](/General/Nico.md) | [Generic .m3u8](/General/m3u8.md)
+- [YouTube](/General/YouTube.md)
+- [Niconico](/General/Nico.md)
+- [Generic .m3u8](/General/m3u8.md)
 
-\>\> For Advanced Users
+### 🏎 For Advanced Users
 
-[Working on Server](/Advanced/server.md) | [OneDrive](/Advanced/1drv.md) | [Thumbnails](/Advanced/thumbnails.md)
+- [Working on Server](/Advanced/server.md)
+- [OneDrive](/Advanced/1drv.md)
+- [Thumbnails](/Advanced/thumbnails.md)
+
+### 🙋‍♂️ FAQ
+
+- [FAQ](/General/FAQ.md)
+- [Issues](https://github.com/aozaki-kuro/archive-guide/issues/new?assignees=&labels=question&template=questions.md&title=%5BQuestion%5D+)
 
 ## 🚧 Disclaimer
 
