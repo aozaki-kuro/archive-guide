@@ -1,4 +1,4 @@
-## Tool Preparation
+## 🔨 Tool Preparation
 
 - youtube-dl - general purpose video downloader [[Github](https://github.com/ytdl-org/youtube-dl)]
 - aria2 - download accelerating [[Github](https://github.com/aria2/aria2)]
@@ -7,7 +7,7 @@
 
 ## 🔨 Easy Usage with Easy Scripts
 
-**※ If you don't want to do the configuration yourself, you can use the scripts provided [here](scripts)**
+**※ If you don't want to do the configuration yourself, you can use the scripts provided [here](/scripts)**
 
 Just paste the .bat files into the same folder as youtube-dl.exe [like this](/assets/dir1.PNG) and double click the .bat file to run. These scripts only provide barebones use of the tools, so if you want to use additional arguments, you will need to keep reading.
 

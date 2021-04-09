@@ -10,6 +10,8 @@
 
 **※ If you are working on a headless server like I do, please read the [advanced guide](/Advanced/server.md)**
 
+**※ If you don't want to do the configuration yourself, you can use the scripts provided [here](/scripts)**
+
 First of all, you should setup a `PATH` folder to tell the Windows where to find the programs.
 
 Run Command Prompt (cmd) as administrator. Then paste the following into the console
