@@ -12,6 +12,8 @@
 
 IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
+If you need to download a paid archive, please check the [Paid archive Guide](README-Paid.md).
+
 ## 🔨 Tool Preparation
 
 #### 📁 Download
