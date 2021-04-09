@@ -1,4 +1,4 @@
-## 📖 The reason I'm using a server
+## 📖 The Reason for Using a Server
 
 Virtual servers are running in server rooms with a way more stable condition and usually faster Internet connection speed. You can also run the job and forget about it / prevent the job being interupted by your own expected moves.
 
@@ -17,14 +17,14 @@ Preparing the environment is pretty much the same on the VPS and the WSL. I will
 3. Connect to your VPS through SSH
 4. Update first
 
-```sh
+```bash
 sudo apt update
 sudo apt upgrade -y
 ```
 
 5. Run the [script](https://github.com/lovezzzxxx/liverecord) and it will setup the environment automatically. If you want to setup the environment manually, see below (I wish I know how to make a docker)
 
-```sh
+```bash
 sudo apt install python3
 sudo apt install python3-pip
 sudo -H pip3 install --upgrade youtube-dl #sudo is required
@@ -40,13 +40,13 @@ sudo apt install aria2
 
 Should be the mostly used tool to download youtube-dl videos. Simple as it is.
 
-```sh
+```bash
 youtube-dl "url"
 ```
 
 But I prefer having it configured and accelarte the download with `aria2`. Here is my configuration:
 
-```sh
+```bash
 --external-downloader aria2c --external-downloader-args "-x 16 -k 1M"
 
 -o '/home/ubuntu/raw/(upload_date)s %(title)s.%(ext)s'
@@ -76,13 +76,13 @@ Also, the config takes 3 times of writing files which might take longer. *Wait p
 
 For **No Archive** streams youtube-dl doesn't work. We should use streamlink instead.
 
-```sh
+```bash
 streamlink "url" best -o "filename.ts" # Name the filename as .ts, not .mp4
 ```
 
 Streamlink works for niconico with options provided.
 
-```sh
+```bash
 streamlink "url" best -o "filename.ts" --niconico-email "EMAIL" --niconico-password "PASSWORD"
 ```
 
@@ -92,7 +92,7 @@ For AbemaTV, streamlink also works. But somehow it's a little bit slow. You can 
 
 It's just a script, but the options are pretty complicated and was in Chinese so I will provide the lines I'm using.
 
-```sh
+```bash
 nohup record/record_new.sh youtube "youtube_account_id" -f best -l 10 -o "auto_record" -dt 1 &
 ```
 

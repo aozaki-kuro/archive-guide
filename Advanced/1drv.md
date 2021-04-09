@@ -34,7 +34,7 @@ OneDriveUploader -s D:\suisei -r / # upload "raw" folder to the root
 
 <summary>For Ubuntu users</summary>
 
-```sh
+```bash
 wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
 sudo chmod a+rx /usr/local/bin/OneDriveUploader
 ```
@@ -42,13 +42,13 @@ Once you are done you should test running the command to see if it's taking effe
 
 If you are using OneDrive for Business, click [this link](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=78d4dc35-7e46-42c6-9023-2d39314433a5&response_type=code&redirect_uri=http://localhost/onedrive-login&response_mode=query&scope=offline_access%20User.Read%20Files.ReadWrite.All) to get an url, then read below to start the config
 
-```sh
+```bash
 OneDriveUploader -a "url" #replace the url part
 ```
 
 e.g. Upload the `raw` folder to OneDrive root
 
-```sh
+```bash
 OneDriveUploader -s raw -r / # upload "raw" folder to the root
 ```
 

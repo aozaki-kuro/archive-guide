@@ -22,7 +22,7 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
 ### 🏎 For Advanced Users
 
-- [Working on Server](/Advanced/server.md)
+- [Working on an Ubuntu Server](/Advanced/server.md)
 - [OneDrive](/Advanced/1drv.md)
 - [Thumbnails](/Advanced/thumbnails.md)
 
