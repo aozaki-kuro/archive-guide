@@ -1,6 +1,6 @@
 <div align="center">
   <image src="assets/comet.png" alt="comet" width="150px" />
-  <h3>Brief Archive Guide for Hoshiyomis</h3>
+  <h3>Paid Archive Guide for Hoshiyomis</h3>
   <em>Treasure every moment of our dear comet.</em>
 </div>
 
@@ -44,6 +44,8 @@ On the stream itself, pick the quality you want to download. **Switching qualiti
 
 Right click the .m3u8 link, and select Copy>Copy URL. **This is the URL to the actual video source, so make sure you write it down somewhere**
 
+![step4](https://github.com/aozaki-kuro/archive-guide/blob/main/assets/networkf1112.PNG)
+
 ### Grab cookies.txt
 
 Make sure you have the cookies.txt extension installed on your browser (link above). Now click on the plugin icon, and select "Current Site." You can save the `cookies.txt` file anywhere you like
@@ -65,3 +67,9 @@ You can drag youtube-dl.exe and the `cookies.txt` file to your cmd to get the ex
 Your command should look something like this
 
 ![example](https://github.com/aozaki-kuro/archive-guide/blob/main/assets/3171285238.PNG)
+
+Now press enter and the download should start. Wait a bit and you should see the video in the path you specified above.
+
+If you can't find the video, chances are it's probably in whatever folder this says
+
+![cmddefault](https://github.com/aozaki-kuro/archive-guide/blob/main/assets/cmddefault.PNG)
