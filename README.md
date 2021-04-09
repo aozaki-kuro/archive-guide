@@ -12,6 +12,12 @@
 
 IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 
+[![Windows10](https://img.shields.io/badge/Windows%2010-20H2-blue)](https://www.microsoft.com/en-us/software-download/windows10)
+
+If you are using Windows 10 only, please check the [Windows ver Guide](README-Windows.md).
+
+If you need to download a paid archive, please check the [Paid archive Guide](README-Paid.md).
+
 ## 🔨 Tool Preparation
 
 #### 📁 Download
@@ -33,10 +39,6 @@ IF YOU HAVE ANY PROBLEMS, READ THE `README.MD` IN EVERY REPO FIRST.
 - rclone (optional) [[Github](https://github.com/rclone/rclone)]
 
 ## 🎬 Virtual Server Enviroment Preparation
-
-[![Windows10](https://img.shields.io/badge/Windows%2010-20H2-blue)](https://www.microsoft.com/en-us/software-download/windows10)
-
-If you are using Windows 10 only, please check the [Windows ver Guide](README-Windows.md).
 
 [![ubuntu](https://img.shields.io/badge/Ubuntu-20.04%20LTS-orange)](https://releases.ubuntu.com/20.04/) 
 
