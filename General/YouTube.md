@@ -9,9 +9,11 @@
 
 **※ If you don't want to do the configuration yourself, you can use the scripts provided [here](/scripts)**
 
-Just paste the .bat files into the same folder as youtube-dl.exe [like this](/assets/dir1.PNG) and double click the .bat file to run. These scripts only provide barebones use of the tools, so if you want to use additional arguments, you will need to keep reading.
+Just paste the .bat files into the same folder as youtube-dl.exe (see picture below) and double click the .bat file to run. These scripts only provide barebones use of the tools, so if you want to use additional arguments, you will need to keep reading.
 
-The video link is normally a YouTube link, but you can put other links in there too (like SPWN stream links).
+![directory](https://github.com/aozaki-kuro/archive-guide/blob/main/assets/dir1.PNG)
+
+The video link can be a YouTube video, stream, or playlist link.
 
 To download members-only streams, paste/replace the cookies.txt file in the folder with the correct cookies.txt file.
 
