@@ -50,7 +50,7 @@ Another alternative way to install these are by using `pip3`. Just install `pyth
 
 ## 🚩 Youtube-dl
 
-Usage is simple.
+Every tool is used from your Command Prompt. Type the following command into your console, replacing the "url" with the link to the video you want to download.
 
 ```powershell
 youtube-dl "url"
