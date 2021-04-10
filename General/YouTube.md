@@ -32,7 +32,9 @@ Run Command Prompt (cmd) as administrator. Then paste the following into the con
 ```powershell
 setx /M PATH "%PATH%;<REPLACE THIS WITH THE PATH TO YOUR DIRECTORY>"
 ```
-The `REPLACE THIS WITH THE PATH TO YOUR DIRECTORY` part should be the folder want to save the tools. In [this case](/assets/dir1.PNG) it sould be "J:\Youtube Downloading"
+The `REPLACE THIS WITH THE PATH TO YOUR DIRECTORY` part should be the folder where your tools are in. In such case it would be "J:\Youtube Downloading"
+
+![directory](https://github.com/aozaki-kuro/archive-guide/blob/main/assets/dir1.PNG)
 
 Once you are done, put the tools in the folder. Start cmd (doesn't not have to be as administrator) and run the commands `youtube-dl --help` or `streamlink -h` etc. If you see a giant block of text showing you the arguments, that means it's working.
 
