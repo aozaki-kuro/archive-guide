@@ -66,7 +66,9 @@ Alternatively, I prefer having it configured to download an .mp4 video, and acce
 
 --embed-thumbnail
 
---format 'bestvideo[vcodec^=avc1]+bestaudio[ext=m4a]/best/mp4'
+--format 'bestvideo+bestaudio/best/mp4'
+
+--merge-output-format mp4
 
 --add-metadata
 

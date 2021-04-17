@@ -53,7 +53,9 @@ But I prefer having it configured and accelarte the download with `aria2`. Here 
 
 --embed-thumbnail
 
---format 'bestvideo[vcodec^=avc1]+bestaudio[ext=m4a]/best/mp4'
+--format 'bestvideo+bestaudio/best/mp4'
+
+--merge-output-format mp4
 
 --add-metadata
 
